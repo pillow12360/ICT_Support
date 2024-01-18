@@ -1,0 +1,13 @@
+package ictproj.ictcomplain;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class IctcomplainApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(IctcomplainApplication.class, args);
+	}
+
+}
