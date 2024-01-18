@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 @Service
 public class UserService {
-    @Autowired
     UserRepository userRepository;
 
     /*public SiteUser create(String username, String email, String password, String building){
